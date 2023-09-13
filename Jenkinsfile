@@ -11,7 +11,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 // First, navigate to the directory for module 3 tests
-                dir('C:\Users\Spandana SY-int-219\PycharmProjects\HROS\testcycles\module 3 folder\testscenario') {
+                dir('C:/Users/Spandana SY-int-219/PycharmProjects/HROS/testcycles/module 3 folder/testscenario') {
                     // Run Robot Framework tests for module 3
                     bat 'robot testcycle.robot'
                 }
